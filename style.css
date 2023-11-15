@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Poppins&family=Quicksand&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 110px;
+    margin: 7px;
+    padding: 5px;
+}
+.nav-item{
+    padding: 20px;
+}
+.btn{
+    border-radius: 6px;
+    width: 150px;
+}
+.main-content{
+    margin-top: 90px;
+}
+.main-content h5 span{
+    color: #017143;
+    font-weight: 900px;
+    font-size: 1em;
+}
+.main-content h5{
+    font-weight: .50em;
+}
+#thumb{
+    width: 500px;
+    height: 500px;
+    margin: -60px;
+}
+.thumbsimgs{
+    left: 50%;
+    bottom: 20px;
+    position: absolute;
+    transform: translateX(-50%);
+    justify-content: center;
+}
+.thumbsimgs li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumbsimgs li:hover{
+    transform: translateY(-15px);
+}
+.thumbsimgs li img{
+    max-width: 60px;
+}
+.sci{
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+.sci li{
+    list-style-type: none;
+}
+.sci li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+}
+.sci li a img{
+    width: 70px;
+}
+.nav-item:hover{
+    background: #017143;
+}
